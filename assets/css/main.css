@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+    overflow: hidden;
+}
+
+
+/* chaser */
+div#chaser-wrap{
+    transform: translate(-25px, -25px);
+}
+div#chaser{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+}
