@@ -24,11 +24,9 @@ CLASS.Element.Chaser = class Chaser{
     onAnimationFrame(util){
         // const mx = this.ix * util.width 
         // const my = this.iy * util.height
-        const mx = this.ix
-        const my = this.iy
         
-        this.vx += (mx - this.vx) * this.friction
-        this.vy += (my - this.vy) * this.friction
+        this.vx += (this.ix - this.vx) * this.friction
+        this.vy += (this.iy - this.vy) * this.friction
 
         // console.log(this.vx, this.vy)
 
